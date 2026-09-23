@@ -4,17 +4,17 @@ cask "spice" do
 
   on_macos do
     on_arm do
-      sha256 "ba13bbce31e8a1f426820fa83cb3b62ab9c49562097e66b9e74fac0f9c2ff26c"
+      sha256 "b61d6d2eca6559b5428c79b7707096c858c59b81b4846f8ded3ebe9b13e4ea3f"
       url "https://github.com/spicelang/spice/releases/download/#{version}/spice_darwin_arm64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "f622dfb69e7936f02d6f549d5e6a08033bd2c9d661465b2e8a216eed8a8b5932"
+      sha256 "cc38232e939d04919f90126c3010e84be59719f1a3b55982b778c0b410ed1bae"
       url "https://github.com/spicelang/spice/releases/download/#{version}/spice_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "dde4cb7987ecfeae141bc65f22cf954cd344a27d44dc156eacebe64357978f21"
+      sha256 "f9c5ff3b7e63a12fd56930ecea2fcce32c08d74140fd3baeaf4af907b4743056"
       url "https://github.com/spicelang/spice/releases/download/#{version}/spice_linux_amd64.tar.gz"
     end
   end
